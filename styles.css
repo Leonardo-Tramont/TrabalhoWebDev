@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #121212; 
+    color: #ffffff;
+    margin-left: 1%;
+}
+
+.inputCurto {
+    width: 25%;
+    background-color: #252525;
+}
+
+.inputDark {
+    background-color: #252525;
+}
+
+h1 {color:white}

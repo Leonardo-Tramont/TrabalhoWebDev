@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #121212; 
+    color: #ffffff;
+    margin-left: 1%;
+}
+
+.inputCurto {
+    width: 25%;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.inputLongo {
+    width: 25%;
+    height: 30%;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.inputCurto2 {
+    width: 19%;
+    background-color: #252525;
+    color: #ffffff;
+}
+
+.inputDark {
+    background-color: #252525;
+    color: #ffffff;
+}
+
+h1 {color:#ffffff}
+

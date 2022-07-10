@@ -1,5 +1,6 @@
+<%@page import="model.Cliente"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.util.*, aplicacao.*"%>
+<%@page import="java.util.*, model.*"%>
 <!DOCTYPE html>
 <html>
     <head>

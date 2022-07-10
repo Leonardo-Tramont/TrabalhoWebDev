@@ -13,31 +13,31 @@
 <body>
     <h1>Cadastrar vendas:</h1>
     <br>
-    <form>
+    <form method="POST" action="CadastraVenda">
         <div class="form-group">
             <label for="inputQuantVendas">Quantidade vendida</label>
-            <input type="text" class="form-control inputCurto" id="inputQuantVendas"
+            <input type="text" class="form-control inputCurto" id="inputQuantVendas" name="inputQuantVendas"
                 placeholder="Insira a quantidade aqui" required>
         </div>
         <div class="form-group">
             <label for="inputDataVendas">Data da venda</label>
-            <input type="text" class="form-control inputCurto" id="inputDataVendas" placeholder="Insira a data aqui" required>
-        </div>
-        <div class="form-group">
-            <label for="inputValVenda">Valor da venda</label>
-            <input type="number" class="form-control inputCurto" id="inputValVenda" placeholder="Insira o valor aqui" required>
+            <input type="text" class="form-control inputCurto" id="inputDataVendas" name="inputDataVendas"
+                   placeholder="Insira a data aqui" required>
         </div>
         <div class="form-group">
             <label for="idCliVendas">ID do cliente comprador</label>
-            <input type="text" class="form-control inputCurto" id="idCliVendas" placeholder="Insira o id aqui" required>
+            <input type="text" class="form-control inputCurto" id="idCliVendas" name="idCliVendas"
+                   placeholder="Insira o id aqui" required>
         </div>
         <div class="form-group">
             <label for="idProdVendas">ID do produto comprado</label>
-            <input type="text" class="form-control inputCurto" id="idProdVendas" placeholder="Insira o id aqui" required>
+            <input type="text" class="form-control inputCurto" id="idProdVendas" name="idProdVendas"
+                   placeholder="Insira o id aqui" required>
         </div>
         <div class="form-group">
             <label for="idVendVendas">ID do vendedor</label>
-            <input type="text" class="form-control inputCurto" id="idVendVendas" placeholder="Insira o id aqui" required>
+            <input type="text" class="form-control inputCurto" id="idVendVendas" name="idVendVendas"
+                   placeholder="Insira o id aqui" required>
         </div>
         <br> <br>
         <button type="submit" class="btn btn-primary">Cadastrar</button>

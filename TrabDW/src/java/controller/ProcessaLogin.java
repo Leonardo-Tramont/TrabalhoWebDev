@@ -1,7 +1,7 @@
 package controller;
 
-import aplicacao.Cliente;
-import aplicacao.Funcionario;
+import model.Cliente;
+import model.Funcionario;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -61,7 +61,7 @@ public class ProcessaLogin extends HttpServlet {
                 if ("1".equals(func.papel)) {
                     response.sendRedirect("menu_vendedor.jsp");
                 } else if ("2".equals(func.papel)) {
-                    response.sendRedirect("cadastro_venda.jsp");
+                    response.sendRedirect("menu_comprador.jsp");
                 } else {
                     response.sendRedirect("index.jsp");
                 }

@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,20 +11,20 @@
 </head>
 
 <body>
-    <h1>Cadastrar forncedor:</h1>
+    <h1>Cadastrar fornecedor:</h1>
     <br>
     <form>
         <div class="form-group">
             <label for="inputRazaoSocialFornecedor">Razão social</label>
             <input type="text" class="form-control inputCurto" id="inputRazaoSocialFornecedor"
-                placeholder="Insira a Razão Social aqui" required>
+                placeholder="Insira a RazÃ£o Social aqui" required>
         </div>
         <div class="form-group">
             <label for="inputCNPJFornecedor">CNPJ</label>
             <input type="number" class="form-control inputCurto" id="inputCNPJFornecedor" placeholder="Insira o CNPJ aqui" required>
         </div><div class="form-group">
             <label for="inputEndForn">Endereço</label>
-            <input type="text" class="form-control inputCurto" id="inputEndForn" placeholder="Insira o endereço aqui" required>
+            <input type="text" class="form-control inputCurto" id="inputEndForn" placeholder="Insira o endereÃ§o aqui" required>
           </div>
           <div class="form-row">
             <div class="form-group col-md-2">

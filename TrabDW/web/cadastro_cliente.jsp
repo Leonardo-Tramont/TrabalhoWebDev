@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -10,37 +11,37 @@
 </head>
 
 <body>
-  <h1>Cadastrar cliente:</h1>
+  <h1>Cadastrar cliente: (jsp)</h1>
   <br>
-  <form>
+  <form method="POST" action="IncluiCliente">
     <!-- <div class="form-group">
               <label for="inputIdCli">ID</label>
               <input type="number" class="form-control inputCurto" id="inputIdCli" placeholder="Insira o ID aqui">
             </div> -->
     <div class="form-group">
       <label for="inputNomeCli">Nome</label>
-      <input type="text" class="form-control inputCurto" id="inputNomeCli" placeholder="Insira o nome aqui" required>
+      <input type="text" class="form-control inputCurto" name="inputNomeCli" id="inputNomeCli" placeholder="Insira o nome aqui" required>
     </div>
     <div class="form-group">
       <label for="inputCpfCli">CPF</label>
-      <input type="text" class="form-control inputCurto" id="inputCpfCli" placeholder="Insira o CPF aqui" required>
+      <input type="text" class="form-control inputCurto" name="inputCpfCli" id="inputCpfCli" placeholder="Insira o CPF aqui" required>
     </div>
     <div class="form-group">
       <label for="inputEndCli">Endereço</label>
-      <input type="text" class="form-control inputCurto" id="inputEndCli" placeholder="Insira o endereço aqui" required>
+      <input type="text" class="form-control inputCurto" name="inputEndCli" id="inputEndCli" placeholder="Insira o endereço aqui" required>
     </div>
     <div class="form-row">
       <div class="form-group col-md-2">
-        <label for="inputCity">Bairro</label>
-        <input type="text" class="form-control inputDark" id="inputCity" placeholder="Insira o bairro aqui" required>
+        <label for="inputCidadeCli">Bairro</label>
+        <input type="text" class="form-control inputDark" name="inputBairroCli" id="inputBairroCli" placeholder="Insira o bairro aqui" required>
       </div>
       <div class="form-group col-md-2">
-        <label for="inputState">Cidade</label>
-        <input type="text" class="form-control inputDark" id="inputCity" placeholder="Insira a cidade aqui" required>
+        <label for="inputEstadoCli">Cidade</label>
+        <input type="text" class="form-control inputDark" name="inputCidadeCli" id="inputCidadeCli" placeholder="Insira a cidade aqui" required>
       </div>
       <div class="form-group col-md-1">
-        <label for="inputZip">UF</label>
-        <select id="inputState" class="form-control inputDark" required>
+        <label for="inputCepCli">UF</label>
+        <select name="inputEstadoCli" id="inputEstadoCli" class="form-control inputDark" required>
           <option selected disabled hidden>Selecione...</option>
           <option value="AC">AC</option>
           <option value="AL">AL</option>
@@ -74,15 +75,15 @@
     </div>
     <div class="form-group">
       <label for="inputCepCli">Cep</label>
-      <input type="text" class="form-control inputCurto" id="inputCepCli" placeholder="Insira o cep aqui" required>
+      <input type="text" class="form-control inputCurto" id="inputCepCli" name="inputCepCli" placeholder="Insira o cep aqui" required>
     </div>
     <div class="form-group">
       <label for="inputTelCli">Telefone</label>
-      <input type="tel" class="form-control inputCurto" id="inputTelCli" placeholder="Insira o telefone aqui" required>
+      <input type="tel" class="form-control inputCurto" id="inputTelCli" name="inputTelCli" placeholder="Insira o telefone aqui" required>
     </div>
     <div class="form-group">
       <label for="inputEmailCli">E-mail</label>
-      <input type="email" class="form-control inputCurto" id="inputEmailCli" placeholder="Insira o e-mail aqui" required>
+      <input type="email" class="form-control inputCurto" id="inputEmailCli" name="inputEmailCli" placeholder="Insira o e-mail aqui" required>
     </div>
     <br> <br>
     <button type="submit" class="btn btn-primary">Cadastrar</button>

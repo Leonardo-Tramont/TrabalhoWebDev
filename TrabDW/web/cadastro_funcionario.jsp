@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Cadastro funcionário</title>
+    <title>Cadastro funcionÃ¡rio</title>
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <input type="text" class="form-control inputCurto" id="inputEmailFunc" placeholder="Insira o e-mail aqui">
         </div>
         <div class="form-group">
-            <label for="inputPapelCli">Papel do funcionário</label>
+            <label for="inputPapelCli">Papel do funcionÃ¡rio</label>
             <select id="inputPapelCli" class="form-control inputCurto2">
                 <option selected disabled>0 = admin, 1 = vendedor, 2 = comprador</option>
                 <option>0</option>

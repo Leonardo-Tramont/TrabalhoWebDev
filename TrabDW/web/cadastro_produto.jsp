@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -14,25 +15,25 @@
     <br>
     <form>
         <div class="form-group">
-            <label for="inputNomeProduto">Razão social</label>
+            <label for="inputNomeProduto">RazÃ£o social</label>
             <input type="text" class="form-control inputCurto" id="inputNomeProduto"
                 placeholder="Insira o nome do produto aqui" required>
         </div>
         <div class="form-group">
-          <label for="inputDescricaoProduto">Descrição</label>
+          <label for="inputDescricaoProduto">DescriÃ§Ã£o</label>
           <textarea rows="3" class="form-control inputLongo" id="inputDescricaoProduto" placeholder="Descreva o produto aqui" required></textarea>
         </div>
         <div class="form-group">
-          <label for="inputPreçoCompraProduto">Preço de compra</label>
-          <input type="number" class="form-control inputCurto" id="inputPreçoCompraProduto" placeholder="Insira o preço de compra aqui" required min="0" step="0.01" data-number-to-fixed="2">
+          <label for="inputPreÃ§oCompraProduto">PreÃ§o de compra</label>
+          <input type="number" class="form-control inputCurto" id="inputPreÃ§oCompraProduto" placeholder="Insira o preÃ§o de compra aqui" required min="0" step="0.01" data-number-to-fixed="2">
         </div>
         <div class="form-group">
-          <label for="inputPreçoVendaProduto">Preço de venda</label>
-          <input type="number" class="form-control inputCurto" id="inputPreçoVendaProduto" placeholder="Insira o preço de venda aqui" required min="0" step="0.01" data-number-to-fixed="2">
+          <label for="inputPreÃ§oVendaProduto">PreÃ§o de venda</label>
+          <input type="number" class="form-control inputCurto" id="inputPreÃ§oVendaProduto" placeholder="Insira o preÃ§o de venda aqui" required min="0" step="0.01" data-number-to-fixed="2">
         </div>
         <div class="form-group">
-          <label for="inputQuantidadeDisponivelProduto">Quantidade disponível</label>
-          <input type="number" class="form-control inputCurto" id="inputQuantidadeDisponivelProduto" placeholder="Insira a quantidade disponível aqui" required>
+          <label for="inputQuantidadeDisponivelProduto">Quantidade disponÃ­vel</label>
+          <input type="number" class="form-control inputCurto" id="inputQuantidadeDisponivelProduto" placeholder="Insira a quantidade disponÃ­vel aqui" required>
         </div>
         <div class="form-group">
           <label for="inputLiberadoVendaProduto">Venda Liberada?</label>

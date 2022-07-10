@@ -13,31 +13,31 @@
 <body>
     <h1>Cadastrar fornecedor:</h1>
     <br>
-    <form>
+    <form method="POST" action="IncluiFornecedor">
         <div class="form-group">
             <label for="inputRazaoSocialFornecedor">Razão social</label>
-            <input type="text" class="form-control inputCurto" id="inputRazaoSocialFornecedor"
-                placeholder="Insira a RazÃ£o Social aqui" required>
+            <input type="text" class="form-control inputCurto" id="inputRazaoSocialFornecedor" name="inputRazaoSocialFornecedor"
+                placeholder="Insira a Razão Social aqui" required>
         </div>
         <div class="form-group">
             <label for="inputCNPJFornecedor">CNPJ</label>
-            <input type="number" class="form-control inputCurto" id="inputCNPJFornecedor" placeholder="Insira o CNPJ aqui" required>
+            <input type="number" class="form-control inputCurto" id="inputCNPJFornecedor" name="inputCNPJFornecedor" placeholder="Insira o CNPJ aqui" required>
         </div><div class="form-group">
             <label for="inputEndForn">Endereço</label>
-            <input type="text" class="form-control inputCurto" id="inputEndForn" placeholder="Insira o endereÃ§o aqui" required>
+            <input type="text" class="form-control inputCurto" id="inputEndForn" name="inputEndForn" placeholder="Insira o endereço aqui" required>
           </div>
           <div class="form-row">
             <div class="form-group col-md-2">
-              <label for="inputCity">Bairro</label>
-              <input type="text" class="form-control inputDark" id="inputCity" placeholder="Insira o bairro aqui" required>
+              <label for="inputBairroForn">Bairro</label>
+              <input type="text" class="form-control inputDark" id="inputBairroForn" name="inputBairroForn" placeholder="Insira o bairro aqui" required>
             </div>
             <div class="form-group col-md-2">
-              <label for="inputState">Cidade</label>
-              <input type="text" class="form-control inputDark" id="inputCity" placeholder="Insira a cidade aqui" required>
+              <label for="inputCidadeForn">Cidade</label>
+              <input type="text" class="form-control inputDark" id="inputCidadeForn" name="inputCidadeForn" placeholder="Insira a cidade aqui" required>
             </div>
             <div class="form-group col-md-1">
-              <label for="inputZip">UF</label>
-              <select id="inputState" class="form-control inputDark" required>
+              <label for="inputEstadoForn">UF</label>
+              <select id="inputEstadoForn" name="inputEstadoForn" class="form-control inputDark" required>
                 <option selected disabled hidden>Selecione...</option>
                 <option value="AC">AC</option>
                 <option value="AL">AL</option>
@@ -71,15 +71,15 @@
           </div>
           <div class="form-group">
             <label for="inputCepForn">Cep</label>
-            <input type="text" class="form-control inputCurto" id="inputCepForn" placeholder="Insira o cep aqui" required>
+            <input type="text" class="form-control inputCurto" id="inputCepForn" name="inputCepForn" placeholder="Insira o cep aqui" required>
           </div>
           <div class="form-group">
             <label for="inputTelForn">Telefone</label>
-            <input type="tel" class="form-control inputCurto" id="inputTelForn" placeholder="Insira o telefone aqui" required>
+            <input type="tel" class="form-control inputCurto" id="inputTelForn" name="inputTelForn"  placeholder="Insira o telefone aqui" required>
           </div>
           <div class="form-group">
             <label for="inputEmailForn">E-mail</label>
-            <input type="email" class="form-control inputCurto" id="inputEmailForn" placeholder="Insira o e-mail aqui" required>
+            <input type="email" class="form-control inputCurto" id="inputEmailForn" name="inputEmailForn" placeholder="Insira o e-mail aqui" required>
           </div>
         <br> <br>
         <button type="submit" class="btn btn-primary">Cadastrar</button>

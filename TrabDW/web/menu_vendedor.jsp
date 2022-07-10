@@ -16,13 +16,28 @@
     <br> <br>
 
     <h3>Cadastrar cliente</h3>
-    <a href="cadastro_cliente.jsp" style="margin-left: 1%;">Clique aqui</a> <br> <br>
+    <a href="cadastro_cliente.jsp" style="margin-left: 1%;">
+        <button type="button" class="btn btn-primary">Cadastrar cliente</button>
+    </a> <br> <br>
     <h3>Editar cliente</h3>
-    <a href="edicao_cliente.jsp" style="margin-left: 1%;">Clique aqui</a> <br> <br>
+    <div>
+    
+    </div>
+    <a href="busca_cliente.jsp" style="margin-left: 1%;">
+        <button type="button" class="btn btn-primary">Editar cliente</button>
+    </a> <br> <br>
     <h3>Excluir cliente</h3>
-    <a href="exclusao_cliente.jsp" style="margin-left: 1%;">Clique aqui</a> <br> <br>
+    <a href="exclusao_cliente.jsp" style="margin-left: 1%;">
+        <button type="button" class="btn btn-primary">Excluir cliente</button>
+    </a> <br> <br>
     <h3>Visualizar Clientes</h3>
-    <a href="MostraDados" style="margin-left: 1%;">Clique aqui</a> <br> <br>
+    <a href="MostraDados" style="margin-left: 1%;">
+        <button type="button" class="btn btn-primary">Visualizar clientes cadastrados</button>
+    </a> <br> <br>
+    <h3>Cadastrar Venda</h3>
+    <a href="cadastro_venda.jsp" style="margin-left: 1%;">
+        <button type="button" class="btn btn-primary">Cadastrar venda</button>
+    </a> <br> <br>
     
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>
